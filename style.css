@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  height: 125px;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  width: 50%;
+  list-style: none;
+  justify-content: space-between;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000000;
+}
+nav ul li a:hover {
+  color: #ff5d34;
+  transition: 0.2s;
+}
+nav ul .active {
+  color: #000000;
+  font-weight: 600;
+}
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.col-1,
+.col-2 {
+  flex-basis: 50%;
+  overflow: hidden;
+}
+.col-1 h1 {
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.col-1 p {
+  color: #999999;
+  font-weight: 400;
+  font-size: 18;
+  line-height: 36px;
+  margin-top: 16px;
+}
+.items {
+  display: flex;
+  margin-top: 20px;
+}
+
+.items span {
+  color: #8080ff;
+}
+
+.items .items-list {
+  margin-right: 40px;
+}
+
+.items .items-list p {
+  margin-top: -5px;
+}
+.inputbtn input {
+  border-style: none;
+}
+::placeholder {
+  font-size: 18px;
+  color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: #cc2f08d0;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn-primary {
+  margin-top: 50px;
+  padding: 8px 43px;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 500;
+  background-color: #ff5d34;
+  border-style: none;
+}
+
+.col-2 .bg {
+  position: absolute;
+  top: -120px;
+  right: -185px;
+  z-index: -2;
+}
